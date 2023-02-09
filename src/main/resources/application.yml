@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mahaveer91-vault-config
+  cloud:
+    vault:
+      kv:
+        enabled: true
+      scheme: http
+      token: 00000000-0000-0000-0000-000000000000
+  config:
+    import: vault://
